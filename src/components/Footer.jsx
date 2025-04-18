@@ -5,8 +5,8 @@ import InstagramIcon from '../../images/icon-instagram.svg';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10">
-      <div className="w-full max-w-[1440px] mx-auto px-6 flex justify-between item-cen">
+    <footer className="bg-black text-white py-10 w-full">
+      <div className="w-full max-w-[1140px] mx-auto px-6 flex justify-between items-center">
     
         <div className="flex flex-col space-y-4">
           <h2 className="text-2xl font-josefin">loopstudios</h2>

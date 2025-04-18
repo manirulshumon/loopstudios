@@ -14,8 +14,8 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <section className='w-full max-w-[1440px] mx-auto px-6 py-10'>
-      <div className="flex items-center justify-between mt-20">
+    <section className='w-full'>
+      <div className="w-full max-w-[1140px] mx-auto px-6 flex items-center justify-between mt-20">
         <h2 className="text-3xl font-josefin">OUR CREATION</h2>
 
 
@@ -24,9 +24,9 @@ const Blog = () => {
         </button>
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-6 py-10 grid grid-cols-4 gap-6">
+      <div className="max-w-[1140px] mx-auto px-6 py-10 grid grid-cols-4 gap-6">
         {blogPosts.map((post, index) => (
-          <div key={index} className="relative w-70 h-100 overflow-hidden">
+          <div key={index} className="relative w-60 h-90 overflow-hidden">
             <img
               src={post.image}
               alt={post.title}
